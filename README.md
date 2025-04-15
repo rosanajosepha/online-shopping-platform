@@ -1,15 +1,15 @@
 # Leah's Wardrobe 💖🛍️
 
-A stylish e-commerce shopping website built locally for class project `CEN4021`.  
-This project includes a shopping cart and billing page, designed with a chic pink & black theme and modern UX vibes ✨
+A girly e-commerce shopping website built locally for class project `CEN4021`.  
+This project includes a home page, product detail page, shopping cart and billing page, designed with a chic pink & black theme and modern UX vibes ✨
 
 ---
 
 ## 💡 Tech Stack
 
-- HTML5
-- CSS3
-- JavaScript (Vanilla)
+- HTML
+- CSS
+- JavaScript
 - VS Code for development
 - Localhost for testing
 
@@ -81,22 +81,19 @@ CEN4021/
 
 ## 🚀 How to Run
 
-1. Open the folder (`CEN4021`) in **VS Code**
-2. Use Live Server extension or right-click → “Open with Live Server”
-3. Open `cart.html` or `billing.html` to view the pages
+1. Use Live Server extension or right-click → “Open with Live Server”
+2. Open `cart.html` or `billing.html` to view the pages
 
 ---
 
 ## 🧠 Notes
 
 - No real payment integrations are active — all buttons link to their official homepages
-- Product images are placeholders — swap in your real pics in the HTML
-- Fully responsive styling and hover effects can be added later!
+- Fully responsive styling with hover effects
 
 ---
 
 ## ✨ Credits
 
-- HTML/CSS/JS by [Your Name] & Groupmates
-- Styling help + layout structure: ChatGPT (aka the code fairy 🧚‍♀️)
+- HTML/CSS/JS by Dorreen Vahidiazar, Rosana Josepha, Mariana Cusguen
 
