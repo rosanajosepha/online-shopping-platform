@@ -110,8 +110,11 @@
           </label>
           <p class="price">$35.00</p>
           <button class="remove-btn">Remove</button>
-        </div>
+        </div>     
       </div>
+      <div class="continue-shopping">
+        <button onclick="window.location.href='homepage.html'">← Continue Shopping</button>
+      </div>   
 
     </section>
 
@@ -120,10 +123,30 @@
       <p>Subtotal: <span>$155.00</span></p>
       <p>Est. Tax: <span>$12.40</span></p>
       <p>Shipping: <span>$5.00</span></p>
+    
+      <!-- Promo Code Box -->
+      <div class="promo-code">
+        <label for="promo">Promo Code:</label>
+        <input type="text" id="promo" placeholder="Enter code">
+        <button class="apply-btn">Apply</button>
+      </div>
+    
       <hr>
       <p><strong>Total: <span>$172.40</span></strong></p>
       <button onclick="window.location.href='billing.html'">Proceed to Checkout</button>
+    
+      <!-- Express Payment Info -->
+      <div class="express-checkout">
+        <p>Express payment options at checkout</p>
+        <div class="payment-icons">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg" alt="Google Pay" />
+          <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg" alt="PayPal" />
+          <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Visa.svg" alt="Visa" />
+          <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Mastercard-logo.svg" alt="Mastercard" />
+        </div>
+      </div>
     </aside>
+    
   </main>
 </body>
 </html>
