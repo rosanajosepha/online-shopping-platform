@@ -8,12 +8,18 @@
 </head>
 <body>
 
-  <header class="billing-header">
-    <h1>Leah's Wardrobe</h1>
-    <div class="checkout-banner">
-      <h2>Checkout</h2>
+  <header>
+    <div class="top-bar">
+      <button class="top-btn">🏠 Home</button>
+      <button class="top-btn"><i class="fas fa-user"></i> Profile</button>
     </div>
+    <h1>Leah's Wardrobe</h1>
   </header>
+  <div class="checkout-banner">
+    <h2>Checkout</h2>
+  </div>
+  
+  
 
   <section class="express-payment">
     <p>Express payment options</p>
@@ -93,23 +99,8 @@
 </div>
 
   </section>
+  <script src="script.js"></script>
 
 </body>
 </html>
-<script>
-  function showPaymentOption() {
-    const selected = document.getElementById("payment-select").value;
 
-    document.getElementById("paypal-box").classList.add("hidden");
-    document.getElementById("googlepay-box").classList.add("hidden");
-    document.getElementById("creditcard-box").classList.add("hidden");
-
-    if (selected === "paypal") {
-      document.getElementById("paypal-box").classList.remove("hidden");
-    } else if (selected === "googlepay") {
-      document.getElementById("googlepay-box").classList.remove("hidden");
-    } else if (selected === "creditcard") {
-      document.getElementById("creditcard-box").classList.remove("hidden");
-    }
-  }
-</script>
