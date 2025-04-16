@@ -18,20 +18,45 @@ This project includes a home page, product detail page, shopping cart and billin
 ## 📁 Folder Structure
 
 ```bash
-CEN4021/
-├── index.html              # Home page (done by groupmate)
-├── product.html            # Product detail page (done by groupmate)
-├── cart.html               # Shopping cart page
-├── billing.html            # Billing and shipping info page
-├── script.js               # JavaScript file (payment dropdowns)
-├── style.css               # Main CSS styles
-├── Leahs_Wardrobe_Banner.png # Custom banner image
-└── README.md               # This file ✍️
-```
+Leahs_Wardrobe/
+├── index.html                 # Home page 
+├── product-detail.html        # Product detail page 
+├── shoppingCart.html          # Shopping cart page 
+├── billing.html               # Billing & shipping info / checkout page
+├── style.css                  # Main CSS styles 
+├── script.js                  # JS for billing page interactions (dropdowns, toggles)
+├── Leahs_Wardrobe_Banner.png  # Custom banner image
+└── README.md                  # Project overview & documentation
 
 ---
 
-## 🛒 Shopping Cart Page (`cart.html`)
+## 🏠 Home Page (`home.html`)
+
+The Home Page serves as the landing screen for the shopping platform. It includes:
+
+- A welcoming header
+- A simple product list (mocked)
+- Links to individual product detail pages
+- A button to view the shopping cart
+
+This page simulates browsing through available products.
+
+---
+
+## 📄 Product Detail Page (`product-detail.html`)
+
+The Product Detail Page displays information about a selected product. It includes:
+
+- Product name and price
+- A short product description
+- A button to "Add to Cart" (navigates to the cart page)
+- A link to return to the Home Page
+
+This page is designed to give users a quick overview of a product before purchasing.
+
+---
+
+## 🛒 Shopping Cart Page (`shoppingCart.html`)
 
 ### Features:
 - **Website name** at the top with custom banner image
@@ -92,6 +117,9 @@ CEN4021/
 - Fully responsive styling with hover effects
 
 ---
+
+
+> 🚧 Note: This prototype does not include dynamic data or backend functionality. All interactions are simulated using static HTML and simple JS for navigation and alerts.
 
 ## ✨ Credits
 
