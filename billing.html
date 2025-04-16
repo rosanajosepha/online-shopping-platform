@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Billing Info - Leah's Wardrobe</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Quicksand&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <div class="top-bar">
+      <button class="top-btn">🏠 Home</button>
+      <button class="top-btn"><i class="fas fa-user"></i> Profile</button>
+    </div>
+    <h1>Leah's Wardrobe</h1>
+  </header>
+  <div class="checkout-banner">
+    <h2>Checkout</h2>
+  </div>
+  
+  
+
+  <section class="express-payment">
+    <p>Express payment options</p>
+    <div class="payment-icons">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg" alt="Google Pay" />
+      <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg" alt="PayPal" />
+    </div>
+  </section>
+
+  <section class="billing-form">
+    <h2>Contact Info</h2>
+    <form>
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="Enter your email" required>
+
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" placeholder="Enter your phone number" required>
+
+      <h2>Shipping Info</h2>
+      <!-- You already have this part done previously! Just paste it here if needed -->
+
+      <!-- Example Placeholder: -->
+      <label for="address">Street Address:</label>
+      <input type="text" id="address" placeholder="Enter your address">
+
+      <label for="city">City:</label>
+      <input type="text" id="city" placeholder="Enter your city">
+
+      <label for="zip">ZIP Code:</label>
+      <input type="text" id="zip" placeholder="Enter your zip code">
+
+      <label for="country">Country:</label>
+      <input type="text" id="country" placeholder="Enter your country">
+
+      
+    </form>
+    <h2>Payment Method</h2>
+<div class="payment-method">
+  <label for="payment-select">Choose Payment Option:</label>
+  <select id="payment-select" onchange="showPaymentOption()">
+    <option value="">-- Select --</option>
+    <option value="paypal">PayPal</option>
+    <option value="googlepay">Google Pay</option>
+    <option value="creditcard">Credit Card</option>
+  </select>
+
+  <!-- PayPal -->
+  <div id="paypal-box" class="payment-box hidden">
+    <button class="payment-btn" onclick="window.location.href='https://www.paypal.com'">Pay with PayPal</button>
+  </div>
+
+  <!-- Google Pay -->
+  <div id="googlepay-box" class="payment-box hidden">
+    <button class="payment-btn" onclick="window.location.href='https://pay.google.com'">Pay with Google Pay</button>
+  </div>
+
+  <!-- Credit Card -->
+  <div id="creditcard-box" class="payment-box hidden">
+    <label for="cc-number">Card Number:</label>
+    <input type="text" id="cc-number" placeholder="1234 5678 9012 3456">
+
+    <label for="cc-expiry">Expiry Date:</label>
+    <input type="text" id="cc-expiry" placeholder="MM/YY">
+
+    <label for="cc-cvv">CVV:</label>
+    <input type="text" id="cc-cvv" placeholder="123">
+
+    <label for="cc-name">Card Holder Name:</label>
+    <input type="text" id="cc-name" placeholder="Your Name">
+
+    <div class="card-icons">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/3/30/Amex_logo.svg" alt="Amex">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Mastercard-logo.svg" alt="Mastercard">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Visa.svg" alt="Visa">
+    </div>
+  </div>
+</div>
+
+  </section>
+  <script src="script.js"></script>
+
+</body>
+</html>
+
