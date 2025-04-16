@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Elegant Dress - Leah's Wardrobe</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Quicksand&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <header>
+    <div class="top-bar">
+      <button class="top-btn">🏠 Home</button>
+      <button class="top-btn"><i class="fas fa-user"></i> Profile</button>
+      <button class="top-btn"><i class="fas fa-shopping-cart"></i> Cart</button>
+    </div>
+    <h1>Leah's Wardrobe</h1>
+  </header>
+
+  <main class="product-detail">
+    <div class="detail-container">
+      <img src="image1.jpg" alt="Elegant Dress" class="detail-img" />
+      <div class="detail-info">
+        <h2>Elegant Dress</h2>
+        <p class="price">$150.00</p>
+        <p class="description">
+          This elegant dress features a timeless silhouette and luxurious fabric, perfect for formal occasions or a classy night out. Available in multiple sizes.
+        </p>
+        <label for="size">Size:</label>
+        <select id="size" name="size">
+          <option value="S">Small</option>
+          <option value="M">Medium</option>
+          <option value="L">Large</option>
+        </select>
+
+        <div class="quantity-wrapper">
+          <label for="quantity">Quantity:</label>
+          <input type="number" id="quantity" name="quantity" value="1" min="1" />
+        </div>
+
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2025 Leah's Wardrobe. All rights reserved.</p>
+      <div class="social-links">
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">Twitter</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

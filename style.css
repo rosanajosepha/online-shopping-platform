@@ -13,6 +13,11 @@ body {
     padding: 20px;
     font-size: 40px;
   }
+
+  header {
+    background-color: #fff;
+    padding: 10px 0;
+  }
   
   nav {
     background-color: #111;
@@ -36,6 +41,69 @@ body {
   
   nav ul li:hover {
     color: #e75480;
+  }
+
+  section {
+    padding: 40px 0;
+  }
+
+  h2 {
+    text-align: center;
+    color: #e75480;
+    font-size: 24px;
+  }
+
+  footer {
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer .social-links a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  footer .social-links a:hover {
+    color: #e75480;
+  }
+
+  .add-to-cart {
+    background-color: #e75480;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-to-cart:hover {
+    background-color: #c7436b;
+  }
+
+  .products-container, .categories-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .product, .category {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    text-align: center;
+  }
+  
+  .product-img, .category-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
   }
   
   .cart-container {
@@ -478,5 +546,53 @@ body {
   
   .checkout-banner h2 {
     margin: 0;
+  }
+  
+  .product-detail {
+    padding: 2rem;
+  }
+  
+  .detail-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .detail-img {
+    max-width: 400px;
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .detail-info {
+    max-width: 500px;
+    font-family: 'Quicksand', sans-serif;
+  }
+  
+  .detail-info h2 {
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 0.5rem;
+  }
+  
+  .price {
+    color: #d14b57;
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+  }
+  
+  .description {
+    margin: 1rem 0;
+  }
+  
+  .quantity-wrapper {
+    margin: 1rem 0;
+  }
+  
+  select,
+  input[type="number"] {
+    padding: 0.5rem;
+    margin-left: 0.5rem;
   }
   
