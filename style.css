@@ -548,3 +548,51 @@ body {
     margin: 0;
   }
   
+  .product-detail {
+    padding: 2rem;
+  }
+  
+  .detail-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .detail-img {
+    max-width: 400px;
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .detail-info {
+    max-width: 500px;
+    font-family: 'Quicksand', sans-serif;
+  }
+  
+  .detail-info h2 {
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 0.5rem;
+  }
+  
+  .price {
+    color: #d14b57;
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+  }
+  
+  .description {
+    margin: 1rem 0;
+  }
+  
+  .quantity-wrapper {
+    margin: 1rem 0;
+  }
+  
+  select,
+  input[type="number"] {
+    padding: 0.5rem;
+    margin-left: 0.5rem;
+  }
+  
